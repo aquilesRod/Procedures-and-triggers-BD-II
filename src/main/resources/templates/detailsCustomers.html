@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Detalhes de Cliente - Northwind</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#" style="margin-left: 10px;">Northwind</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+      aria-expanded="false" aria-label="Alterna navegação" style="margin-right: 10px;">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="/listCustomers">Lista Clientes<span class="sr-only"></span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/listProducts">Lista Produtos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/listOrders">Lista Pedidos</a>
+            </li>
+  
+          </ul>
+        </div>
+  
+      </ul>
+    </div>
+  </nav>
+  
+  <div class="card text-black bg-light mb-3" style="max-width: 100%;">
+    <center>
+      <h1 style="margin-top: 20px;">Editar Cliente</h1>
+    </center>
+    
+    <form id="form" th:each="customer : ${customers}" action="updateCustomer" method="post">
+      <div style="margin: 20px;">
+        <label for="CustomerID">ID do Cliente</label>
+        <input type="text" class="form-control" id="CustomerID" name="CustomerID" th:value="${customer.CustomerID}" required>
+  
+        <div class="row">
+          <div class="form-group col-sm">
+            <label for="CompanyName">Nome da Empresa</label>
+            <input type="text" class="form-control" id="CompanyName" name="CompanyName" th:value="${customer.CompanyName}" required>
+          </div>
+          <div class="form-group col-sm">
+            <label for="ContactName">Nome Contato</label>
+            <input type="text" class="form-control" id="ContactName" name="ContactName" th:value="${customer.ContactName}" required>
+          </div>
+          <div class="form-group col-sm">
+            <label for="ContactTitle">Cargo do Contato</label>
+            <input type="text" class="form-control" id="ContactTitle" name="ContactTitle" th:value="${customer.ContactTitle}" required>
+          </div>
+        </div>
+  
+        <div class="row">
+          <div class="form-group col-sm">
+            <label for="Address">Endereço</label>
+            <input type="text" class="form-control" id="Address" name="Address" th:value="${customer.Address}" required>
+          </div>
+          <div class="form-group col-sm">
+            <label for="PostalCode">CEP</label>
+            <input type="text" class="form-control" name="PostalCode" id="PostalCode" th:value="${customer.PostalCode}" required>
+          </div>
+        </div>
+  
+        <div class="row">
+          <div class="form-group col-sm">
+            <label for="City">Cidade</label>
+            <input type="text" class="form-control" name="City" id="City" th:value="${customer.City}" required>
+          </div>
+          <div class="form-group col-sm">
+            <label for="Region">Estado</label>
+            <input type="text" class="form-control" name="Region" id="Region" th:value="${customer.Region}" required>
+          </div>
+          <div class="form-group col-sm">
+            <label for="Country">Pais</label>
+            <input type="text" class="form-control" name="Country" id="Country" th:value="${customer.Country}" required>
+          </div>
+        </div>
+  
+        <label for="Phone">Telefone</label>
+        <input type="text" class="form-control" name="Phone" id="Phone" th:value="${customer.Phone}" required>
+        <label for="Fax">Fax</label>
+        <input type="text" class="form-control" name="Fax" id="Fax" th:value="${customer.Fax}" required>
+      </div>
+      <center>
+        <button type="submit" class="btn btn-primary" style="margin-top: 20px;">Salvar</button>
+      </center>
+    </form>
+    <center style="margin: 10px">
+      <button type="button" class="btn btn-dark mr-3" onclick="cancelChanges()">Cancelar</button>
+    </center>
+  </div>
+  <script>
+    // function saveChanges() {
+    //   var CustomerID = document.getElementById('form')[0].defaultValue;
+    //   var ref = "/updateCustomer/" + CustomerID;
+    //   window.location.href = ref;
+    // }
+
+    // function saveChanges(customerID) {
+    // var ref = "/customerDetails/updateCustomer/" + customerID;
+    // window.location.href = ref;
+    // }
+
+    // <!-- <button type="submit" class="btn btn-primary" onclick="saveChanges('${customer.CustomerID}')">Salvar</button> -->
+    //     <!-- <button type="submit" class="btn btn-primary" onclick="saveChanges()">Salvar</button> -->
+
+    function cancelChanges() {
+      window.location.href = "/listCustomers";
+    }
+
+  </script>
+  <script src="main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

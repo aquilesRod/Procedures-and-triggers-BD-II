@@ -1,0 +1,216 @@
+2023-05-09 23:14:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid))"; expected "identifier"; SQL statement:
+create table order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid)) [42001-214]
+2023-05-09 23:18:57 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid))"; expected "identifier"; SQL statement:
+create table order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid)) [42001-214]
+2023-05-09 23:32:39 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid))"; expected "identifier"; SQL statement:
+create table order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid)) [42001-214]
+2023-05-09 23:32:57 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid))"; expected "identifier"; SQL statement:
+create table order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid)) [42001-214]
+2023-05-09 23:33:12 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid))"; expected "identifier"; SQL statement:
+create table order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid)) [42001-214]
+2023-05-09 23:34:07 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid))"; expected "identifier"; SQL statement:
+create table order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid)) [42001-214]
+2023-05-09 23:34:25 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid))"; expected "identifier"; SQL statement:
+create table order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid)) [42001-214]
+2023-05-09 23:34:39 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid))"; expected "identifier"; SQL statement:
+create table order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid)) [42001-214]
+2023-05-09 23:35:09 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid))"; expected "identifier"; SQL statement:
+create table order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid)) [42001-214]
+2023-05-09 23:36:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid))"; expected "identifier"; SQL statement:
+create table order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid)) [42001-214]
+2023-05-09 23:37:37 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid))"; expected "identifier"; SQL statement:
+create table order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid)) [42001-214]
+2023-05-09 23:41:24 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid))"; expected "identifier"; SQL statement:
+create table order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid)) [42001-214]
+2023-05-09 23:46:55 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid))"; expected "identifier"; SQL statement:
+create table order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid)) [42001-214]
+2023-05-09 23:51:42 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid))"; expected "identifier"; SQL statement:
+create table order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid)) [42001-214]
+2023-05-09 23:52:31 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid))"; expected "identifier"; SQL statement:
+create table order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid)) [42001-214]
+2023-05-09 23:53:09 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid))"; expected "identifier"; SQL statement:
+create table order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid)) [42001-214]
+2023-05-09 23:58:50 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid))"; expected "identifier"; SQL statement:
+create table order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid)) [42001-214]
+2023-05-09 23:59:21 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid))"; expected "identifier"; SQL statement:
+create table order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid)) [42001-214]
+2023-05-10 00:00:02 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid))"; expected "identifier"; SQL statement:
+create table order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid)) [42001-214]
+2023-05-10 00:03:08 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid))"; expected "identifier"; SQL statement:
+create table order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid)) [42001-214]
+2023-05-10 00:03:34 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid))"; expected "identifier"; SQL statement:
+create table order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid)) [42001-214]
+2023-05-10 00:03:50 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid))"; expected "identifier"; SQL statement:
+create table order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid)) [42001-214]
+2023-05-10 00:10:02 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid))"; expected "identifier"; SQL statement:
+create table order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid)) [42001-214]
+2023-05-10 00:10:51 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid))"; expected "identifier"; SQL statement:
+create table order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid)) [42001-214]
+2023-05-10 00:12:14 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid))"; expected "identifier"; SQL statement:
+create table order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid)) [42001-214]
+2023-05-10 00:21:02 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid))"; expected "identifier"; SQL statement:
+create table order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid)) [42001-214]
+2023-05-10 00:24:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid))"; expected "identifier"; SQL statement:
+create table order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid)) [42001-214]
+2023-05-10 00:28:12 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid))"; expected "identifier"; SQL statement:
+create table order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid)) [42001-214]
+2023-05-10 00:29:10 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid))"; expected "identifier"; SQL statement:
+create table order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid)) [42001-214]
+2023-05-10 00:35:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid))"; expected "identifier"; SQL statement:
+create table order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid)) [42001-214]
+2023-05-10 00:36:21 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid))"; expected "identifier"; SQL statement:
+create table order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid)) [42001-214]
+2023-05-10 00:37:56 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid))"; expected "identifier"; SQL statement:
+create table order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid)) [42001-214]
+2023-05-10 09:08:33 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid))"; expected "identifier"; SQL statement:
+create table order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid)) [42001-214]
+2023-05-10 09:10:04 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid))"; expected "identifier"; SQL statement:
+create table order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid)) [42001-214]
+2023-05-10 09:11:11 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid))"; expected "identifier"; SQL statement:
+create table order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid)) [42001-214]
+2023-05-10 09:13:34 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid))"; expected "identifier"; SQL statement:
+create table order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid)) [42001-214]
+2023-05-10 09:15:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid))"; expected "identifier"; SQL statement:
+create table order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid)) [42001-214]
+2023-05-10 09:17:26 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid))"; expected "identifier"; SQL statement:
+create table order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid)) [42001-214]
+2023-05-10 09:38:29 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid))"; expected "identifier"; SQL statement:
+create table order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid)) [42001-214]
+2023-05-10 09:39:33 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid))"; expected "identifier"; SQL statement:
+create table order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid)) [42001-214]
+2023-05-10 09:40:33 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid))"; expected "identifier"; SQL statement:
+create table order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid)) [42001-214]
+2023-05-10 09:40:53 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid))"; expected "identifier"; SQL statement:
+create table order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid)) [42001-214]
+2023-05-10 09:41:39 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid))"; expected "identifier"; SQL statement:
+create table order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid)) [42001-214]
+2023-05-10 09:41:57 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid))"; expected "identifier"; SQL statement:
+create table order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid)) [42001-214]
+2023-05-10 09:43:04 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid))"; expected "identifier"; SQL statement:
+create table order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid)) [42001-214]
+2023-05-10 09:43:49 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid))"; expected "identifier"; SQL statement:
+create table order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid)) [42001-214]
+2023-05-10 09:47:02 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid))"; expected "identifier"; SQL statement:
+create table order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid)) [42001-214]
+2023-05-10 10:14:14 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid))"; expected "identifier"; SQL statement:
+create table order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid)) [42001-214]
+2023-05-10 10:17:54 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid))"; expected "identifier"; SQL statement:
+create table order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid)) [42001-214]
+2023-05-10 10:19:20 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid))"; expected "identifier"; SQL statement:
+create table order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid)) [42001-214]
+2023-05-10 10:22:56 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid))"; expected "identifier"; SQL statement:
+create table order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid)) [42001-214]
+2023-05-10 10:23:21 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid))"; expected "identifier"; SQL statement:
+create table order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid)) [42001-214]
+2023-05-10 10:23:34 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid))"; expected "identifier"; SQL statement:
+create table order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid)) [42001-214]
+2023-05-10 10:23:55 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid))"; expected "identifier"; SQL statement:
+create table order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid)) [42001-214]
+2023-05-10 10:24:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid))"; expected "identifier"; SQL statement:
+create table order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid)) [42001-214]
+2023-05-10 10:24:56 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid))"; expected "identifier"; SQL statement:
+create table order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid)) [42001-214]
+2023-05-10 10:25:18 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid))"; expected "identifier"; SQL statement:
+create table order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid)) [42001-214]
+2023-05-10 10:31:12 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid))"; expected "identifier"; SQL statement:
+create table order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid)) [42001-214]
+2023-05-10 10:32:20 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid))"; expected "identifier"; SQL statement:
+create table order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid)) [42001-214]
+2023-05-10 10:34:40 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid))"; expected "identifier"; SQL statement:
+create table order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid)) [42001-214]
+2023-05-10 10:36:49 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid))"; expected "identifier"; SQL statement:
+create table order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid)) [42001-214]
+2023-05-10 10:37:22 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid))"; expected "identifier"; SQL statement:
+create table order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid)) [42001-214]
+2023-05-10 10:39:03 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid))"; expected "identifier"; SQL statement:
+create table order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid)) [42001-214]
+2023-05-10 10:39:40 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid))"; expected "identifier"; SQL statement:
+create table order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid)) [42001-214]
+2023-05-10 10:48:20 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid))"; expected "identifier"; SQL statement:
+create table order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid)) [42001-214]
+2023-05-10 10:49:35 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid))"; expected "identifier"; SQL statement:
+create table order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid)) [42001-214]
+2023-05-10 10:50:01 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid))"; expected "identifier"; SQL statement:
+create table order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid)) [42001-214]
+2023-05-10 10:51:02 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid))"; expected "identifier"; SQL statement:
+create table order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid)) [42001-214]
+2023-05-10 10:54:11 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid))"; expected "identifier"; SQL statement:
+create table order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid)) [42001-214]
+2023-05-10 10:55:12 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid))"; expected "identifier"; SQL statement:
+create table order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid)) [42001-214]
+2023-05-10 11:21:47 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid))"; expected "identifier"; SQL statement:
+create table order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid)) [42001-214]
+2023-05-10 11:25:34 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid))"; expected "identifier"; SQL statement:
+create table order (orderid integer not null, customerid varchar(255), freight float(53), order_date date, primary key (orderid)) [42001-214]

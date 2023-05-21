@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br" 
+    xmlns:th="http://thymeleaf.org/"
+    xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout%22%3E">
+  <head>
+    <meta charset="UTF-8">
+    <title>Lista de Pedidos - Northwind</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#" style="margin-left: 10px;">Northwind</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação" style="margin-right: 10px;">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="/listCustomers">Lista Clientes<span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/listProducts">Lista Produtos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/listOrders">Lista Pedidos</a>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="card text-black bg-light mb-3" style="max-width: 100%;">
+            <div class="row">
+                <div class="col-sm">
+                    <h1 style="text-align: left; margin: 20px;">Lista de Pedidos</h1>
+                    <div style="text-align: right">
+                        <button class="btn btn-dark" data-toggle="modal" 
+                            style="margin: 10px;" data-target="#modalExemplo"
+                            type="submit" onclick="goToListOrdersPage()">+Adicionar
+                        </button>
+                    </div>
+                    <table class="table">
+                        <thead class="table-striped table-dark">
+                            <tr>
+                                <th scope="col">ID da Compra</th>
+                                <th scope="col">ID do Cliente</th>
+                                <th scope="col">Data da Compra</th>
+                                <th scope="col">Data da Requisição</th>
+                                <th scope="col">Data do Envio</th>
+                                <th scope="col">Valor do Frete</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr th:each="order, iter : ${allOrders}" th:if="${iter.index lt 10}">
+                                <td th:text="${order.OrderID}"></td>
+                                <td th:text="${order.CustomerID}"></td>
+                                <td th:text="${order.OrderDate}"></td>
+                                <td th:text="${order.RequiredDate}"></td>
+                                <td th:text="${order.ShippedDate}"></td>
+                                <td th:text="${order.Freight}"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <nav th:if="${totalPages > 1}">
+                    <ul class="pagination">
+                        <li class="page-item" th:classappend="${currentPage == 0} ? 'disabled' : ''">
+                            <a class="page-link" th:href="@{/listOrders(page=${currentPage-1})}">Previous</a>
+                        </li>
+                        <li class="page-item" th:each="i : ${#numbers.sequence(0, totalPages-1)}" th:classappend="${i==currentPage} ? 'active' : ''">
+                            <a class="page-link" th:href="@{/listOrders(page=${i})}"><span th:text="${i+1}"></span></a>
+                        </li>
+                        <li class="page-item" th:classappend="${currentPage==totalPages-1} ? 'disabled' : ''">
+                            <a class="page-link" th:href="@{/listOrders(page=${currentPage+1})}">Next</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+        <div class="modal fade bd-example-modal-lg" id="modalExemplo" tabindex="-1" role="dialog"
+            aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content" style="background-color: rgb(220, 220, 220);">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel"></h5>
+                        <br><br>
+                        <div class="modal-body">
+                            <form>
+                                <div class="modal-footer" style="background-color: rgb(146, 158, 169);">
+                                <h3> Nova Compra </h3>
+                            </div>
+                                <div class="form-row">
+                                    <div class="form-group col-md-6">
+                                        <label for="inputEmail4">ID do Cliente</label>
+                                        <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <label for="inputPassword4">Data da Compra</label>
+                                        <input type="password" class="form-control" id="inputPassword4"
+                                            placeholder="Senha">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputAddress">Data de envio</label>
+                                    <input type="text" class="form-control" id="endereco" name="endereco">
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputAddress2">Frete</label>
+                                    <input type="text" class="form-control" id="bairro" name="bairro">
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-group col-md-6">
+                                        <label for="inputCity">Endereço</label>
+                                        <input type="text" class="form-control" name="cidade" id="cidade">
+                                    </div>
+                                    <div class="form-group col-md-4">
+                                        <label for="inputEstado">Cidade</label>
+                                        <input type="text" class="form-control" name="estado" id="estado">
+                                    </div>
+                                    <div class="form-group col-md-2">
+                                        <label for="inputCEP">Regiao</label>
+                                        <input type="text" class="form-control" name="cep" id="cep">
+                                    </div>
+                                    <div class="form-group col-md-2">
+                                        <label for="inputCEP">Pais</label>
+                                        <input type="text" class="form-control" name="pais" id="pais">
+                                    </div>
+                                    <div class="form-group col-md-2">
+                                        <label for="inputCEP">CEP</label>
+                                        <input type="text" class="form-control" name="cep" id="cep">
+                                    </div>
+                                </div>
+                                <center>
+                                    <button type="button" class="btn btn-secondary"
+                                        data-dismiss="modal" href="addOrder.html">Adicionar Produtos</button>
+                                </center>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="modal-footer" style="background-color: rgb(146, 158, 169);">
+                        <button type="button" class="btn btn-dark" data-dismiss="modal">FECHAR</button>
+                        <button type="button" class="btn btn-dark" data-dismiss="modal">CADASTRAR</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+            function goToListOrdersPage() {
+                window.location.href = "/addOrder";
+            }
+        </script>
+        <script src="main.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>
